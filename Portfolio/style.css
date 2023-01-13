@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Header and Navigation */       
+nav{
+    display: flex;                      /* the navigation all element will set into same line. */
+    justify-content: space-between;     /* it will divided and send them in two side. */
+    margin: 50px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;             /* Diplay flex will makes all element set into same. */
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+
+
