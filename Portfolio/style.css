@@ -14,6 +14,7 @@ nav{
 }
 nav ul{
     display: flex;             /* Diplay flex will makes all element set into same. */
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -23,9 +24,81 @@ nav li{
     color: #FD6E0A;
 }
 .btn-primary{
+    color: white;
     height: 64px;
+    font-size: 20px;
+    font-weight: 700;
     border-radius: 5px;
     background: #FD6E0A;
+    border: 0;
+    padding: 18px 35px;
 }
+/* Banner  */
+.banner{
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin: 30px;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url('/portfolio-resources/images/header_bg.png'), url('portfolio-resources/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+/* main section  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+/* About Section  */
+.about{
+    text-align: center;
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px; 
+    padding: 130px 150px;
+}
+.section-title{
+    
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-discription{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+
+
 
 
