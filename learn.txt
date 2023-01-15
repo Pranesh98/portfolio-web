@@ -1,0 +1,14 @@
+
+
+* display: flex;
+(it will makes all element into same line. 
+Explain: When we used list item and other item which takes multiple line. But we have to set into only one line that time we use flex. 
+Flex box makes all items into one line.)
+
+* justify-content: space-between;
+it divide and sent them into two side. That means gap between the element. 
+
+* emit shortcut techniq to make a design. 
+.skill.
+
+* Learned about the flex box. 
