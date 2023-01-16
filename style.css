@@ -57,6 +57,7 @@ nav li{
     background-image: url('/portfolio-resources/images/header_bg.png'), url('portfolio-resources/images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
+
 }
 /* main section  */
 main{
