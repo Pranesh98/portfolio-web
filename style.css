@@ -177,3 +177,52 @@ input{
 .contact a{
     text-decoration: none;           /* removing the underline from the link */ 
 }
+
+/* Responsive Design */
+
+@media screen and (max-width: 576px) {
+    .header{
+        background-image: none;
+    }
+    nav, .banner, .skills-container, 
+    .resume-content, .about-info-container, 
+    .contact{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+    .banner{
+        margin: 0 20px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .about .contact{
+        padding: 20px;
+    }
+    .contact input[type="text"], input[type="email"], textarea{
+        padding: 0 0 0 5px;
+
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .about, .contact{
+        padding: 20px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contact input[type="text"], input[type="email"], textarea{
+        padding: 0 0 0 5px;
+    }
+}
+.hide{
+    display: none;
+}
+
+
